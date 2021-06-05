@@ -23,7 +23,7 @@ data class CourseDetail(
     val weeks: Int,
     val tuition: String,
     val minimumSkill: String,
-    val scholarshipAvailable: Boolean,
+    val scholarshipsAvailable: Boolean,
     val modality: String,
     val start: String,
 )

@@ -36,7 +36,8 @@ class DetailFragment(val id:String): Fragment() {
             Log.d("Detail", "onCreateView: $it")
             it?.let {
                 course = it
-                binding.checkScolarship.isChecked = it.scholarshipAvailable
+                Log.d("Detail", "onCreateView: Detalle del curso: $it")
+                binding.checkScolarship.isChecked = it.scholarshipsAvailable
                 binding.imgDetailImage.load(it.image)
                 binding.tvDetailTitle.text = it.title
                 binding.tvTuition.text = it.tuition
