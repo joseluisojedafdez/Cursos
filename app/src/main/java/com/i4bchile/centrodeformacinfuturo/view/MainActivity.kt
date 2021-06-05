@@ -1,7 +1,9 @@
-package com.i4bchile.centrodeformacinfuturo
+package com.i4bchile.centrodeformacinfuturo.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.i4bchile.centrodeformacinfuturo.R
+import com.i4bchile.centrodeformacinfuturo.databinding.ActivityMainBinding
 
 /*
  *
@@ -46,7 +48,13 @@ import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        val binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.main_container, ListFragment())
+            .addToBackStack("volver")
+            .commit()
+        setContentView(binding.root)
     }
 }

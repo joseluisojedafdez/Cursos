@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Centro de FormaciónFuturo</string>
+    <string name="descriptiondetail">descripcion</string>
+    <string name="scholarship">Beca Disponible</string>
+    <string name="modality">Modalidad</string>
+    <string name="weeks">Semanas</string>
+    <string name="detailtitle">Titulo Detalle</string>
+    <string name="detailimage">Imagen Detalle</string>
+    <string name="tuition">Beca Disponible</string>
+    <string name="enviar_email">Enviar Email</string>
+    <string name="start_list">Comienzo</string>
+    <string name="weeks_listado">Semanas</string>
+    <string name="nombre_del_curso">Titulo del Curso</string>
+    <string name="imagen_curso">Imagen Curso</string>
+    <string name="description_list">descripcion</string>
 </resources>
