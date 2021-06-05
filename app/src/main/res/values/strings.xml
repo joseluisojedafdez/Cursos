@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Centro de FormaciónFuturo</string>
     <string name="descriptiondetail">descripcion</string>
-    <string name="scholarship">Beca Disponible</string>
+    <string name="scholarship">Scholarship Available</string>
     <string name="modality">Modalidad</string>
     <string name="weeks">Semanas</string>
     <string name="detailtitle">Titulo Detalle</string>
     <string name="detailimage">Imagen Detalle</string>
-    <string name="tuition">Beca Disponible</string>
+    <string name="tuition">Tuition</string>
     <string name="enviar_email">Enviar Email</string>
     <string name="start_list">Comienzo</string>
     <string name="weeks_listado">Semanas</string>

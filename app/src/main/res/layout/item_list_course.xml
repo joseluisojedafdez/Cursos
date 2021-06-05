@@ -28,15 +28,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/tv_description_list"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="@string/description_list"
-                app:layout_constraintStart_toStartOf="@+id/tv_nombre_listado"
-                app:layout_constraintTop_toBottomOf="@+id/tv_start_list" />
-
             <ImageView
                 android:id="@+id/img_listado"
                 android:layout_height="135dp"

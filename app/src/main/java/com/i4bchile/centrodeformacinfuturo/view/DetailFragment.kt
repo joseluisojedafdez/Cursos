@@ -30,6 +30,7 @@ class DetailFragment(val id:String): Fragment() {
 
         binding = FragmentDetailBinding.inflate(inflater)
         binding.checkScolarship.isClickable = false
+        Log.d("Detail", "onCreateView: valor id a buscar es $id")
         viewModel.loadSelectedDetail(id)
         viewModel.getSelectedDetail(id).observe(viewLifecycleOwner, {
             Log.d("Detail", "onCreateView: $it")

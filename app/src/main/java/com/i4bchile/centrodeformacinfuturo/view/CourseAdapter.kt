@@ -50,7 +50,7 @@ class CourseVH (private val binding: ItemListCourseBinding): RecyclerView.ViewHo
         binding.tvNombreListado.text=course.title
         binding.tvWeeksListado.text=course.weeks.convertToWeeks()
         binding.imgListado.load(course.image)
-        binding.tvDescriptionList.text=course.previewDescription
+
         binding.tvStartList.text=course.start
 
     }

@@ -12,7 +12,7 @@ interface CourseAPI {
     @GET("courses")
     suspend fun getCourseList(): Response<List<Course>>
 
-    @GET("courses_detail/{id}")
+    @GET("courses_details/{id}")
     suspend fun getCourseDetail(@Path("id") id: String): Response<CourseDetail>
 }
 

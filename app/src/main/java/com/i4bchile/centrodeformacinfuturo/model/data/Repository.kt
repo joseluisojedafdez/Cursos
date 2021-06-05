@@ -17,14 +17,14 @@ class Repository {
         when (response.isSuccessful) {
 
             true -> {
-                Log.d("Repository", "getCakeList con: ${response.body()?.size} elementos")
+                Log.d("Repository", "getCourseList con: ${response.body()?.size} elementos")
                 response.body()?.let {
                     database.courseDao().loadAllCourses(it)
                 }
             }
 
             false -> {
-                Log.d("Repository", "error de conexión: ${response.code()} ")
+                Log.d("Repository", "connection error: ${response.code()} ")
             }
         }
     }
